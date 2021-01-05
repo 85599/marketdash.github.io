@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-CMXPPDJB56"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         gtag('js', new Date());
+         
+         gtag('config', 'G-CMXPPDJB56');
+      </script>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Market Dashboard">
+      <meta name="author" content="Gokulan Viswanathan">
+      <!-- Auto refresh the page for every 90 seconds -->
+      <meta http-equiv="refresh" content="90"/>
+      <link rel="icon" type="image/jfif" sizes="16x16" href="./images/market-dashboard-title.jfif">
+      <title>Market Dashboard</title>
+      <!-- Theme CSS -->
+      <link href="styles/custom-style.css" rel="stylesheet">
+      <!-- Custom Fonts -->
+      <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+         rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="./script/bootstrap.min.css">
+      <script src="./script/jquery.min.js"></script>
+      <script src="./script/bootstrap.min.js"></script>
+      <script src="./script/custom-script.js"></script>
+   </head>
+   <body>
+      <!-- Header Menu -->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+         <div class="container-fluid">
+            <div class="navbar-header header-prop">
+               <div class="btn-group btn-group-justified ">
+                  <a href="./index.html" class="btn active active-header-button">Asian<br>Indices</a>
+                  <a href="./american.html" class="btn btn-secondary header-button">American<br>Indices</a>
+                  <a href="./european.html" class="btn btn-secondary header-button">European<br>Indices</a>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <div id="section1" class="container-fluid main-class">
+         <h2>Asian Indices</h2>
+         <div class="value-box">
+            <blockquote>
+               <table class="table table-hover">
+                  <thead class="table-heading">
+                     <tr>
+                        <th class="table-header-center header-confirmed headerFirst">Name</th>
+                        <th class="table-header-center header-cprice headerValue">LTP</th>
+                        <th class="table-header-center header-dhigh headerValue">High</th>
+                        <th class="table-header-center header-dlow headerValue">Low</th>
+                        <th class="table-header-center header-change headerValue">Chg%</th>
+                     </tr>
+                  </thead>
+                  <tbody class="table-body" id="table-body">
+                  </tbody>
+               </table>
+            </blockquote>
+         </div>
+      </div>
+      <script>
+         // Get Sensex Index
+         getSensexIndex();
+         
+         // Get Asian Indices
+         getAsianIndices();   
+      </script>
+      <!-- Footer menu -->
+      <nav class="navbar navbar-inverse navbar-fixed-bottom">
+         <div class="container-fluid">
+            <div class="navbar-header footer-prop">
+               <div class="btn-group btn-group-justified ">
+                  <a href="./nse.html" class="btn btn-secondary footer-button">NSE<br>Indices</a>
+                  <a href="./bse.html" class="btn btn-secondary footer-button">BSE<br>Indices</a>
+                  <a href="./nifty.html" class="btn btn-secondary footer-button">NIFTY<br>50</a>
+                  <a href="./sensex.html" class="btn btn-secondary footer-button">SENSEX<br>30</a>
+               </div>
+            </div>
+         </div>
+      </nav>
+   </body>
+</html>

@@ -1,0 +1,131 @@
+blockquote {
+	color: #777777;
+	font-style: normal;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	border: none !important;
+}
+
+body {
+	-webkit-tap-highlight-color: #0085A1;
+}
+
+.header-confirmed {
+	color: black;
+}
+
+.header-cprice {
+	color: #007bff
+}
+
+.header-dhigh {
+	color: #28a745
+}
+
+.header-dlow {
+	color: #000000;
+}
+
+.header-dopen {
+	color: #FFA500
+}
+
+.header-change {
+	color: #000000;
+}
+
+.header-fontstyle {
+	font-family: archia
+}
+
+.delta {
+	font-size: 13px;
+}
+
+.numberValue {
+	text-align: right;
+	margin-left: 1px;
+	width: 1%
+}
+
+.numberValueRed {
+	color: #FF0000;
+	text-align: right;
+	margin-left: 1px;
+	width: 1%
+}
+
+.numberValueGreen {
+	color: #28a745;
+	text-align: right;
+	margin-left: 1px;
+	width: 1%
+}
+
+.numberFirst {
+	text-align: left;
+	margin-left: 1px;
+	width: 2%;
+	color: black;
+}
+
+.headerValue {
+	text-align: right;
+	margin-left: 1px;
+	width: 1%
+}
+
+.headerFirst {
+	text-align: left;
+	margin-left: 1px;
+	width: 2%;
+	color: black;
+}
+
+.icon-bar {
+	font-size: 32px;
+}
+
+#section1 {
+	padding-top: 50px;
+	height: 250px;
+	color: black;
+	background-color: white;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 36px;
+}
+
+table {
+	font-size: 12px;
+}
+
+.main-class {
+	padding-bottom: 25px;
+}
+
+.body {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.active-header-button {
+	color: #FFFFFF;
+	background-color: #333382;
+	font-size: 11px;
+}
+
+.active-button {
+	color: #FFFFFF;
+	background-color: #8e0505;
+	font-size: 11px;
+}
+
+.header-button {
+	color: #8d8dc7;
+}
+
+.footer-button {
+	color: #ef7171;
+}
